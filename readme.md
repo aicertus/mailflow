@@ -1,3 +1,5 @@
+[![](https://raw.githubusercontent.com/aicertus/mailflow/refs/heads/main/docs/banner/banner.png)](https://github.com/aicertus/mailflow)
+
 # Mailflow
 
 Mailflow is a simple and efficient tool for managing your emails. It allows you to organize, prioritize, and perform actions on your emails intuitively, all from an easy-to-use interface.
