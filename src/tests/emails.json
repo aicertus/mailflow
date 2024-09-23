@@ -1,0 +1,35 @@
+{
+  "emails": [
+    {
+      "de": "javier.martinez@empresa-electrica.com",
+      "para": ["ana.gomez@empresa-electrica.com", "juan.fernandez@empresa-electrica.com"],
+      "asunto": "Oferta Competencia - IberEnergy S.A.",
+      "texto": "Hola Ana, Juan,\n\nHe recibido información sobre una oferta reciente de IberEnergy S.A. para uno de nuestros clientes potenciales, la empresa Logística Integral S.L. (CIF: B12345678). Les están ofreciendo un precio de 0.120 €/kWh para contratos a largo plazo (3 años), con un descuento adicional del 5% si contratan antes del 30 de septiembre. El CUPS del cliente es ES0021000001234567XX.\n\nNecesito que revisen si podemos competir con esta oferta o si debemos presentar una contraoferta más agresiva.\n\nGracias,\nJavier Martínez\nDepartamento Comercial"
+    },
+    {
+      "de": "laura.moreno@empresa-electrica.com",
+      "para": ["analisis@empresa-electrica.com"],
+      "asunto": "Incidencia con cliente - Energía Solar del Sur",
+      "texto": "Estimados,\n\nHemos recibido una queja de Energía Solar del Sur (CIF: A87654321) respecto a la facturación de su contrato. El cliente indica que ha habido una discrepancia en el consumo registrado para el mes de agosto. El CUPS asociado al contrato es ES0032000009876543XX. Solicitan una revisión de la medición y ajustes correspondientes.\n\nPor favor, confirmen los datos de consumo reales y veamos cómo proceder con esta incidencia.\n\nSaludos,\nLaura Moreno\nAtención al Cliente - Comercial"
+    },
+    {
+      "de": "pablo.ruiz@empresa-electrica.com",
+      "para": ["analistas@empresa-electrica.com"],
+      "asunto": "Consulta sobre contrato especial - Transportes Unidos S.A.",
+      "texto": "Hola equipo de análisis,\n\nTenemos una consulta sobre el contrato especial para nuestro cliente Transportes Unidos S.A. (CIF: B56789123). El cliente ha solicitado información detallada sobre el impacto de las fluctuaciones en el precio del gas natural en su contrato, ya que su consumo energético ha aumentado este trimestre. El CUPS del cliente es ES0041000004567890XX.\n\n¿Podrían proporcionar un análisis del impacto y posibles recomendaciones para ajustar las condiciones contractuales?\n\nGracias de antemano,\nPablo Ruiz\nComercial"
+    },
+    {
+      "de": "marta.lopez@empresa-electrica.com",
+      "para": ["soporte@empresa-electrica.com"],
+      "asunto": "Revisión de nueva oferta para Manufacturas Gómez",
+      "texto": "Hola equipo,\n\nEstamos preparando una oferta para Manufacturas Gómez S.L. (CIF: B23456789), uno de nuestros clientes más importantes. Necesitamos verificar la viabilidad de ofrecer una tarifa fija de 0.115 €/kWh para un contrato de 2 años. El CUPS de la instalación es ES0053000003456789XX.\n\nPor favor, revisen si esta oferta es competitiva en el contexto actual del mercado y si necesitamos ajustar algún término adicional.\n\nUn saludo,\nMarta López\nComercial"
+    },
+    {
+      "de": "carlos.garcia@empresa-electrica.com",
+      "para": ["analistas@empresa-electrica.com", "soporte@empresa-electrica.com"],
+      "asunto": "Comparativa de tarifas para nuevo cliente - Soluciones IT",
+      "texto": "Buenas tardes,\n\nTenemos a un cliente nuevo, Soluciones IT S.L. (CIF: B76543210), interesado en contratar nuestros servicios energéticos. El CUPS de su instalación es ES0064000002345678XX. Nos han solicitado una comparativa de tarifas frente a su proveedor actual, ElectroRed S.A.\n\nSu oferta actual incluye una tarifa variable con un coste promedio de 0.125 €/kWh en los últimos 6 meses. ¿Podemos ofrecer algo más atractivo sin comprometer demasiado el margen?\n\nGracias por su colaboración.\n\nCarlos García\nComercial"
+    }
+  ]
+}
+
