@@ -45,6 +45,7 @@ import json
 
 import instructor
 from openai import OpenAI
+OpenAI.api_key = 'ollama'
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
@@ -128,14 +129,8 @@ class EmailExtractor(BaseModel):
             cups = self.resp.cups,
             summary = self.resp.summary
         )
-        #self.extractedEmail.de = self.email.de
-        #self.extractedEmail.para = self.email.para
-        #self.extractedEmail.asunto = self.email.asunto
-        #self.extractedEmail.texto = self.email.texto
-        #self.extractedEmail.cif = resp.cif
-        #self.extractedEmail.cups = resp.cups
-        #self.extractedEmail.summary = resp.summary
-        
+
+        return self
 
     class Config:
         arbitrary_types_allowed = True
