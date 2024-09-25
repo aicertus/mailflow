@@ -110,7 +110,7 @@ class EmailExtractor(BaseModel):
         logging.info("Extrayendo información del mail")
         content = "Extrae la información del email en español. No te inventes nada: " + self.email.texto
         self.resp = self.client.chat.completions.create(
-            model="llama3.1",
+            model="phi3.5",
             messages=[
                 {
                     "role": "assistant",
