@@ -1,6 +1,6 @@
 {
     "name": "Python developtment environment",
-    "image": "phd_almariscal",
+    "image": "aicertus_image",
     "runArgs": [
         "--network=host" // Esto funciona en Linux
       ]
