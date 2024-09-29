@@ -50,7 +50,7 @@ OpenAI.api_key = 'ollama'
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
-Settings.llm = Ollama(model="llama3.1", request_timeout=1500.0)
+Settings.llm = Ollama(model="phi3.5", request_timeout=1500.0)
 #Settings.embed_model = HuggingFaceEmbedding(model_name='BAAI/bge-m3')
 
 
@@ -73,6 +73,17 @@ class ExtractedMail(BaseModel):
     cif: Optional[List[str]] = []
     cups: Optional[List[str]] = []
     summary: Optional[str] = ""
+
+    # Método personalizado para convertir a diccionario con listas concatenadas como cadenas
+    def to_custom_dict(self) -> dict:
+        result = self.model_dump(exclude=self.texto)
+        
+        # Convertir listas a cadenas separadas por ;
+        for field, value in result.items():
+            if isinstance(value, list):
+                result[field] = ";".join(value) if value else ""
+        
+        return result
     
 
 class EmailExtractor(BaseModel):
