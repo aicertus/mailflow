@@ -44,7 +44,7 @@
 
 *.log
 *.exe
-*.txt
+#*.txt
 *.nupkg
 *.suo
 *.user
