@@ -1,0 +1,7 @@
+{
+    "name": "Python developtment environment",
+    "image": "aicertus_image",
+    "runArgs": [
+        "--network=host" // Esto funciona en Linux
+      ]
+}
