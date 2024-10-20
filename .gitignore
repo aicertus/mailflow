@@ -44,7 +44,7 @@
 
 *.log
 *.exe
-*.txt
+#*.txt
 *.nupkg
 *.suo
 *.user
@@ -70,8 +70,16 @@
 *FodyWeavers.xml
 *FodyWeavers.xsd
 *.htm
+*.cpython*
 
 
 .config/Config.props
 .config/Config.props
 
+src/mailextractor/__pycache__/__init__.cpython-310.pyc
+src/tests/__pycache__/__init__.cpython-310.pyc
+src/tests/__pycache__/test_email_extraction.cpython-310-pytest-8.3.3.pyc
+src/mailextractor/__pycache__/__init__.cpython-310.pyc
+src/tests/__pycache__/__init__.cpython-310-pytest-8.3.3.pyc
+src/tests/__pycache__/test_email_extraction.cpython-310-pytest-8.3.3.pyc
+data/chroma/**
